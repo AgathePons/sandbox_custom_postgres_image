@@ -1,2 +1,2 @@
 FROM postgres:16.1
-COPY data/ .
+COPY data/ ./docker-entrypoint-initdb.d
